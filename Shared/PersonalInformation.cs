@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Shared
+namespace XebecPortal.Shared
 {
     public class PersonalInformation
     {
@@ -24,6 +24,8 @@ namespace Shared
         public string Gender { get; set; }
 
         public string Ethnicity { get; set; }
+
+        public string Email { get; set; }
 
         //foreign key
         public int UserId { get; set; }

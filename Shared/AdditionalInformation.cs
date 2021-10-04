@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Shared
+namespace XebecPortal.Shared
 {
     public class AdditionalInformation
     {
         public int Id { get; set; }
 
         public string GitHubLink { get; set; }
+
+        public string FacebookLink { get; set; } //add to new model
 
         public string LinkedInLink { get; set; }
 

@@ -2,7 +2,19 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-} 
+}
+@font-face {
+    font-family: 'Erica';
+    src: url('Fonts/EricaOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'SigmarOne';
+    src: url('Fonts/SigmarOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'Asset';
+    src: url('Fonts/Asset-Regular.ttf');
+}
 /*
 a, .btn-link {
     color: #0366d6;
