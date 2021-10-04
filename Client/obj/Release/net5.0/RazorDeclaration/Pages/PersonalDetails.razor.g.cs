@@ -13,104 +13,104 @@ namespace XebecPortal.Client.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 1 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 2 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 3 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 4 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 5 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 6 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 7 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 8 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 9 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using XebecPortal.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 10 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using XebecPortal.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 11 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using XebecPortal.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 12 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using XebecPortal;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 13 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using BlazorInputFile;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\_Imports.razor"
+#line 14 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\_Imports.razor"
 using Microsoft.Extensions.Logging;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/personal-details")]
     public partial class PersonalDetails : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -119,15 +119,17 @@ using Microsoft.Extensions.Logging;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 358 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\Pages\PersonalDetails.razor"
+#line 348 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\Pages\PersonalDetails.razor"
       
     public PersonalInformation PersonalInfo { get; set; } = new PersonalInformation();
+
+
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 361 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\Pages\PersonalDetails.razor"
+#line 353 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\Pages\PersonalDetails.razor"
            
     [Parameter]
     public EventCallback<string> GenderChanged
@@ -146,7 +148,7 @@ using Microsoft.Extensions.Logging;
 #line hidden
 #nullable disable
 #nullable restore
-#line 376 "C:\Users\Iviwe\source\repos\xebec-recruitment-portal\Client\Pages\PersonalDetails.razor"
+#line 368 "C:\Users\Iviwe\Source\Repos\xebec-recruitment-portal\Client\Pages\PersonalDetails.razor"
            
     /*
         * Html <option>'s values are string
@@ -167,10 +169,7 @@ using Microsoft.Extensions.Logging;
         return DisabilityChanged.InvokeAsync(PersonalInfo.Disability);
     }
 
-    [Parameter]
-    public bool isNotEmpty { get; set; }
-   
-
+    
 
 #line default
 #line hidden
