@@ -197,12 +197,12 @@
       "netstandard.dll": "sha256-yOOty6BTX3e57YAEHK5a4nku\/lj0vi7jg\/eQZAjbDQk=",
       "System.Private.CoreLib.dll": "sha256-rraBQp6NevIQiELPVfDFDl5pv9QVJqCiZhB5bkpiZ88=",
       "XebecPortal.Shared.dll": "sha256-V3dWBJ6UP6wsAY0w\/kv+\/Sbtg9+lWgz3hUCMOKVALY0=",
-      "XebecPortal.Client.dll": "sha256-wAMdJ9Ma20LsRU\/C1becRn55dGxJlFq1II0B53alcYI="
+      "XebecPortal.Client.dll": "sha256-\/X12t2wWof0TIginIxvtd8IPmKM\/zoIY+qh\/5WZe8TA="
     },
     "lazyAssembly": null,
     "pdb": {
       "XebecPortal.Shared.pdb": "sha256-4TKWjldtosO7wyRWrK5fT+ff6edZtmicIrZnHixkJmg=",
-      "XebecPortal.Client.pdb": "sha256-4t5rZDe\/tmIG2WbpEAx7Hs\/BDWhrSw6LYmkKOr+r61Y="
+      "XebecPortal.Client.pdb": "sha256-Fc\/bSVBJbNzH6WA91Gm2l7x6SmzrunLBrXM+URdaGPY="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-L2vkcKzmXJtf+J7db5TbDMBckrgqJ5qc0ZzVIdRlm0I=",

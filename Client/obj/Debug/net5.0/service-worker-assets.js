@@ -5,7 +5,7 @@
       "url": "_content\/BlazorInputFile\/inputfile.js"
     },
     {
-      "hash": "sha256-u1rCh4OWor+HpXgvI+9FROUZomxrYAg3ySsp4LEVZ+4=",
+      "hash": "sha256-tck+Gz0k5OBWjnFiEDDtMtCOnvtFzO0Gp8OmcBtTSOo=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -801,11 +801,11 @@
       "url": "_framework\/XebecPortal.Shared.pdb"
     },
     {
-      "hash": "sha256-wAMdJ9Ma20LsRU\/C1becRn55dGxJlFq1II0B53alcYI=",
+      "hash": "sha256-\/X12t2wWof0TIginIxvtd8IPmKM\/zoIY+qh\/5WZe8TA=",
       "url": "_framework\/XebecPortal.Client.dll"
     },
     {
-      "hash": "sha256-4t5rZDe\/tmIG2WbpEAx7Hs\/BDWhrSw6LYmkKOr+r61Y=",
+      "hash": "sha256-Fc\/bSVBJbNzH6WA91Gm2l7x6SmzrunLBrXM+URdaGPY=",
       "url": "_framework\/XebecPortal.Client.pdb"
     },
     {
@@ -1685,5 +1685,5 @@
       "url": "XebecPortal.Client.bundle.scp.css"
     }
   ],
-  "version": "R5dNmCze"
+  "version": "Ak5MDDmx"
 };

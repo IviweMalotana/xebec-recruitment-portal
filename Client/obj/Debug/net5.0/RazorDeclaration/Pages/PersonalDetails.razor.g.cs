@@ -176,7 +176,7 @@ using Microsoft.Extensions.Logging;
 #nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private IJSRuntime jsRuntime { get; set; }
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ILogger<AdditionalInfo> Logger { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ILogger<PersonalDetails> Logger { get; set; }
     }
 }
 #pragma warning restore 1591
